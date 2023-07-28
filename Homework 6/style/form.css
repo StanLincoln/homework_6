@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.main {
+    padding: 30px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 15px 5px lightsteelblue;
+    border-radius: 15px;
+    line-height: 1.7;
+
+}
+
+.header {
+    background-color: lightskyblue;
+    color: white;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.name_input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+
+}
+
+.email_input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.phone_input input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.q1 input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.q2 input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.q3 select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.quest4 input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.quest5 input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.area textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(25, 25, 252);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
